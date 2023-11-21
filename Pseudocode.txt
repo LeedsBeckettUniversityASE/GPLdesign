@@ -1,4 +1,4 @@
-//copy this into notepad++
+//see video https://leedsbeckettreplay.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9bbe9b2f-3341-4845-910c-ac72009e6ee3#
 //this represents a first thought about how to approach the problem
 //it doesn’t structure it in a particularly OO way, we would think about that later
 //version 2.2 now includes ifs, version 2.1(below) used in the video
