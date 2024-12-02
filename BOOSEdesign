@@ -1,0 +1,29 @@
+StoredProgram
+  //is an extension of ArrayList which holds individual command objects
+  //parser has called a command object's compile
+  //storedProgram calls command object's execute
+  //it holds a variable table and method table
+  //methods to store and retrieved variable values and methods
+
+while compile
+  storedprogram.push(location of this command)
+while execute
+  if condition == false
+    StoredProgram.PC = lineNumberOfEnd
+
+end compile
+  //last thing on the stack should be the corresponding if/while/method etc, otherwise syntax error
+  CorrespondingCommand = StoredProgram.pop()
+If it doesn't match type then throw "mistamched end"
+Store linenumber of this end (as instance data) so corresponding command can jumpt to it if its condition is false
+
+end execute
+  if corresponding command is While
+    storedprogram.pc = correspondingcommand's line number
+  if corresponding command is If
+    do nothing
+  if corresponding command is For
+    check count (could be in either direction or stepped)
+  if it's not run out 
+     StoredProgram.PC = lineNumberOfCorrespondingCommand
+
