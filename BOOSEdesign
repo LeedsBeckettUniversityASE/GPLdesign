@@ -4,6 +4,7 @@ StoredProgram
   //storedProgram calls command object's execute
   //it holds a variable table and method table
   //methods to store and retrieved variable values and methods
+  //ability to change PC
 
 while compile
   storedprogram.push(location of this command)
