@@ -1,3 +1,9 @@
+Parser
+  //from the UI it gets the program
+  //splits program
+  //splits a line
+  //asks command factory to make a command
+  //calls command's compile() which sets up parameters
 StoredProgram
   //is an extension of ArrayList which holds individual command objects
   //parser has called a command object's compile
