@@ -1,9 +1,11 @@
 Parser
   //from the UI it gets the program
   //splits program
-  //splits a line
+  //splits a line#
+  //determine if command is a variable declaration (which doesn't follow <command><space><parameterlist> and is instad <typecomand><variablename><optional assignment>
   //asks command factory to make a command
   //calls command's compile() which sets up parameters
+  
 StoredProgram
   //is an extension of ArrayList which holds individual command objects
   //parser has called a command object's compile
